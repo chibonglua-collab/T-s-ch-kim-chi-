@@ -624,29 +624,3 @@ footer {
     object-fit: contain;
     display: block;
 }
-.suggest-body {
-    font-size: 14px;
-}
-
-.suggest-body h1 {
-    font-size: 32px;
-    line-height: 1.25;
-}
-
-.suggest-body h2 {
-    font-size: 20px;
-}
-
-.suggest-body p {
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.suggest-body .section-label {
-    font-size: 11px;
-}
-
-.suggest-body .suggest-button {
-    font-size: 14px;
-    color: #2F6F9F;
-}
