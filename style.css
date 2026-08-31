@@ -627,3 +627,104 @@ footer {
 .suggest-button {
     color: #2F6F9F;
 }
+.review-detail {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 90px 7%;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.review-detail-cover {
+    display: flex;
+    justify-content: center;
+}
+
+.review-detail-cover .book-cover {
+    width: 280px;
+    height: 390px;
+}
+
+.review-detail-content {
+    max-width: 650px;
+}
+
+.review-detail-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(45px, 6vw, 76px);
+    line-height: 1.05;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.review-detail-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.review-author {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.review-divider {
+    width: 60px;
+    height: 1px;
+    background: var(--border);
+    margin: 25px 0;
+}
+
+.review-detail-content .review-text {
+    max-width: 600px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.review-back {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 7% 70px;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .review-detail {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        padding: 60px 8%;
+    }
+
+    .review-detail-cover .book-cover {
+        width: 210px;
+        height: 290px;
+    }
+
+    .review-detail-content {
+        max-width: 100%;
+    }
+
+    .review-detail-content h1 {
+        font-size: 43px;
+    }
+
+    .review-detail-content h2 {
+        font-size: 23px;
+    }
+
+    .review-detail-content .review-text {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .review-back {
+        padding: 0 8% 50px;
+    }
+}
