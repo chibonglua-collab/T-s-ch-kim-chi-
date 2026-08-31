@@ -624,3 +624,14 @@ footer {
     object-fit: contain;
     display: block;
 }
+@media (max-width: 600px) {
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+}
