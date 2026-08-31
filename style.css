@@ -809,3 +809,17 @@ footer {
         padding: 0 25px 50px;
     }
 }
+.review-detail-content .review-text {
+    font-family: "Quicksand", sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1.9 !important;
+    color: var(--muted);
+    max-width: 600px;
+}
+@media (max-width: 700px) {
+    .review-detail-content .review-text {
+        font-size: 14px !important;
+        line-height: 1.85 !important;
+    }
+}
