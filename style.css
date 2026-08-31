@@ -512,3 +512,109 @@ footer {
         margin-top: -50px;
     }
 }
+ /* =========================
+    REVIEW PAGE
+ ========================= */
+
+.review-list {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.review-card {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(50, 40, 30, 0.06);
+}
+
+.review-cover {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-cover span {
+    font-size: 60px;
+}
+
+.review-content {
+    padding: 38px 42px;
+}
+
+.review-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: var(--accent);
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 8px 0 20px;
+}
+
+.review-text {
+    max-width: 650px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.review-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.review-info span {
+    padding: 7px 13px;
+    border-radius: 20px;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   REVIEW MOBILE
+ ========================= */
+
+@media (max-width: 700px) {
+
+    .review-card {
+        grid-template-columns: 1fr;
+    }
+
+    .review-cover {
+        min-height: 260px;
+    }
+
+    .review-content {
+        padding: 28px 25px;
+    }
+
+    .review-content h2 {
+        font-size: 28px;
+    }
+
+    .review-text {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .rating {
+        font-size: 16px;
+    }
+}
