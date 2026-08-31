@@ -728,3 +728,83 @@ footer {
         padding: 0 8% 50px;
     }
 }
+.review-detail {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 60px;
+    align-items: center;
+}
+
+.review-detail-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.review-detail-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 1.08;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.review-detail-content .review-text {
+    width: 100%;
+    max-width: 600px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.review-detail-cover .book-cover {
+    width: 260px;
+    height: 370px;
+}
+
+.review-detail-cover .book-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* 📱 PHONE */
+@media (max-width: 700px) {
+
+    .review-detail {
+        width: 100%;
+        padding: 55px 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .review-detail-cover .book-cover {
+        width: 210px;
+        height: 290px;
+    }
+
+    .review-detail-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .review-detail-content h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .review-detail-content .review-text {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .review-back {
+        padding: 0 25px 50px;
+    }
+}
