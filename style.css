@@ -624,3 +624,6 @@ footer {
     object-fit: contain;
     display: block;
 }
+.suggest-button {
+    color: #2F6F9F;
+}
