@@ -824,44 +824,38 @@ footer {
     }
 }
 /* Buy Book Section */
+/* Buy book section */
 .buy-book {
-    margin-top: 40px;
-    padding-top: 25px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 18px;
+    padding: 14px 16px;
+    border-radius: 14px;
 }
 
 .buy-book h3 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.6;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin: 0 0 6px;
 }
 
 .buy-book p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-    margin-bottom: 20px;
+    font-size: 13px;
+    margin: 0 0 10px;
+    line-height: 1.5;
 }
 
 .buy-buttons {
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.buy-button {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #6f927d;
+.buy-buttons a {
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    color: #0077cc;
     text-decoration: none;
-    transition: all 0.3s ease;
 }
 
-.buy-button:hover {
-    color: #52745f;
+.buy-buttons a:hover {
+    color: #005fa3;
     text-decoration: underline;
 }
