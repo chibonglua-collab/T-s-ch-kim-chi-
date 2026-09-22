@@ -844,10 +844,10 @@ footer {
 
 .buy-buttons {
     display: flex !important;
-    justify-content: flex-start !important;
+    justify-content: center !important;
     align-items: center !important;
     gap: 8px !important;
-    flex-wrap: nowrap !important;
+    flex-wrap: wrap !important;
 }
 
 .buy-book .buy-button {
